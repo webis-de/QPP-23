@@ -11,6 +11,7 @@ Searchers who can't satisfy their known-item information need using a search eng
 ### Analyze categories
 
 ### Analyze solved questions
+`analyze-tomt-solved.ipynb` contains the code to analyze the categories of the solved questions and the waiting time. It also contains samples for precision and recall experiments.
 
 ## Description of code structure
 `extract-solved-comment-test.ipynb` contains our code for extracting Gold Answers from the TOMT subreddit dataset. It loads in the TOMT subreddit dataset and extends it with the `solved_utc`, `chosen_answer` and `links_on_answer_path` attributes.
