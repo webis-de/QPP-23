@@ -17,3 +17,5 @@ This will extract all the links on the comments path to the Gold Answer are extr
 There is a possibility to customize the Gold Answer heuristic, which is based on the presence of the keywords "yes", "thank", "solved", "amazing" is this choice seemed to work adequately in pilot experiments and precision and recall experiments (see [below](#precision-and-recall-experiments)). Another possible adaptation is to also consider questions without a value of `link_flair_text`, i.e. questions that could be solved but are not officially marked as `Solved`.
 
 ## Precision and Recall experiments
+
+## Sample data
