@@ -17,12 +17,12 @@ We analyse the distribution of each category that belongs to at least one TOMT q
 2. movie, 158543 questions
 3. video, 67642 questions
 4. music, 47591 questions
-5. book] 47578 questions
+5. book, 47578 questions
 6. 2000s, 38200 questions
 7. game, 32961 questions
 
 ### Analyze solved questions
-`analyze-tomt-solved.ipynb` contains the code to analyze the categories of the solved questions and the waiting time. It also contains samples for precision and recall experiments.
+`analyze-tomt-solved.ipynb` contains the code to analyze the categories of the solved questions and the waiting time.
 
 ## Description of code structure
 `extract-solved-comment-test.ipynb` contains our code for extracting Gold Answers from the TOMT subreddit dataset. It loads in the TOMT subreddit dataset and extends it with the `solved_utc`, `chosen_answer` and `links_on_answer_path` attributes.
