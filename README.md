@@ -24,7 +24,7 @@ We analyse the distribution of each category that belongs to at least one TOMT q
 ### Analyze solved questions
 `analyze-tomt-solved.ipynb` contains the code to analyze the categories of the solved questions and the waiting time.
 
-## Description of code structure
+## Extract Gold Answers
 `extract-solved-comment-test.ipynb` contains our code for extracting Gold Answers from the TOMT subreddit dataset. It loads in the TOMT subreddit dataset and extends it with the `solved_utc`, `chosen_answer` and `links_on_answer_path` attributes.
 In addition, we rename the Reddit attributes `selftext` to `content` and `title`to `subject`, as it is common in other Q&A datasets, such as Yahoo!-Answers.
 We iterate through all questions and call the `find_gold_answer(qa)` method which traverses the comment tree of each question. It expects a Pandas dataframe row with all the required attributes (i.e. `author`, `created_utc`, `link_flair_text`, `num_comments`, `comments`).
