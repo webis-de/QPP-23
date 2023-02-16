@@ -24,3 +24,4 @@ There is a possibility to customize the Gold Answer heuristic, which is based on
 We measure the precision and recall of our approach by annotating 50 random questions from the corpus and 50 questions for which our heuristic extracts a solved answer (those questions were not used to develop the rules), finding that our approach has a precision of 92 % and a recall of 78 %. `analyze-tomt-solved.ipynb` contains the code that extracts these random questions.
 
 ## Sample data
+We provide sample data extracted in `analyze-tomt-solved.ipynb`. The `sample-data` folder contains sample questions from the TOMT subreddit that were solved within a day, a week, a month, a year or later. There are also two random datasets for recall and precision experiments.
