@@ -7,15 +7,19 @@ You can find the ready-to-use dataset at [https://files.webis.de/corpora/corpora
 
 # Structure of this repository
 
-## Analyze TOMT subreddit
-### Analyze categories
-1. [song], 161385
-2. [movie], 158543
-3. [video], 67642
-4. [music], 47591
-5. [book], 47578
-6. [2000s], 38200
-7. [game], 32961
+## Analyse TOMT subreddit
+The code related to analyses is contained in `tomt-parsing`.
+
+### Analyse categories
+We analyse the distribution of each category that belongs to at least one TOMT question. Because redundancies occurred due to different spellings, we consider the category names case-insensitive. These are the top-7 categories that we extracted in `tomt-parsing`:
+
+1. song, 161385 questions
+2. movie, 158543 questions
+3. video, 67642 questions
+4. music, 47591 questions
+5. book] 47578 questions
+6. 2000s, 38200 questions
+7. game, 32961 questions
 
 ### Analyze solved questions
 `analyze-tomt-solved.ipynb` contains the code to analyze the categories of the solved questions and the waiting time. It also contains samples for precision and recall experiments.
