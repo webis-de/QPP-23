@@ -9,6 +9,13 @@ You can find the ready-to-use dataset at [https://files.webis.de/corpora/corpora
 
 ## Analyze TOMT subreddit
 ### Analyze categories
+1. [song], 161385
+2. [movie], 158543
+3. [video], 67642
+4. [music], 47591
+5. [book], 47578
+6. [2000s], 38200
+7. [game], 32961
 
 ### Analyze solved questions
 `analyze-tomt-solved.ipynb` contains the code to analyze the categories of the solved questions and the waiting time. It also contains samples for precision and recall experiments.
