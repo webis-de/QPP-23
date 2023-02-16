@@ -21,8 +21,8 @@ We analyse the distribution of each category that belongs to at least one TOMT q
 6. 2000s, 38200 questions
 7. game, 32961 questions
 
-### Analyze solved questions
-`analyze-tomt-solved.ipynb` contains the code to analyze the categories of the solved questions and the waiting time.
+### Analyse solved questions
+`analyse-tomt-solved.ipynb` contains the code to analyse the top categories of the solved questions and the waiting time.
 
 ## Extract Gold Answers
 `extract-solved-comment-test.ipynb` contains our code for extracting Gold Answers from the TOMT subreddit dataset. It loads in the TOMT subreddit dataset and extends it with the `solved_utc`, `chosen_answer` and `links_on_answer_path` attributes.
@@ -35,4 +35,4 @@ There is a possibility to customize the Gold Answer heuristic, which is based on
 We measure the precision and recall of our approach by annotating 50 random questions from the corpus and 50 questions for which our heuristic extracts a solved answer (those questions were not used to develop the rules), finding that our approach has a precision of 92 % and a recall of 78 %. `qpp-experiments/extract-precision-recall-samples.ipynb` contains the code that extracts these random questions. These samples can also be found in `sample-data` as `csv` files.
 
 ## Sample data
-We provide sample data extracted in `analyze-tomt-solved.ipynb`. The `sample-data` folder contains sample questions from the TOMT subreddit that were solved within a day, a week, a month, a year or later. There are also two random datasets for recall and precision experiments.
+We provide sample data extracted in `analyse-tomt-solved.ipynb`. The `sample-data` folder contains sample questions from the TOMT subreddit that were solved within a day, a week, a month, a year or later. There are also two random datasets for recall and precision experiments.
